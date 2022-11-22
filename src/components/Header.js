@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from "react-router-dom"
 
 const Header = () => {
-    const Logo = () => <h1 className='cursor-pointer text-white text-2xl first-letter:text-3xl font-bold first-letter:px-2 py-2 first-letter:bg-orange-500 first-letter:rounded-xl'>News Portal</h1>
+    const Logo = () => <h1 className='cursor-pointer text-white text-2xl first-letter:text-3xl font-bold first-letter:px-2 py-2 first-letter:bg-orange-500 first-letter:rounded-xl'>Adi News</h1>
     const Search = () => (
         <div className='flex gap-2'>
           <input type="search" className="border px-3 py-2 rounded-lg" placeholder="search by news"/>
